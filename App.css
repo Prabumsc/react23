@@ -1,0 +1,74 @@
+.flex-row{
+  background-color:#007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+  width:950px;
+  height:600px;
+  line-height:30px ;
+  display: flex;
+  font-family:'Times New Roman', Times, serif;
+}
+.tag{
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+background-color:white;
+height:500px ;
+width:250px;
+line-height: 35px;
+text-align: center;
+
+}
+
+
+.d-grid{
+  text-align: center;
+ 
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+    opacity: 1;
+
+}
+.textColor{
+color:	#c0c0c0;
+}
+.fa-li{
+  display: flex;
+  flex-direction: row;
+}
+.top{
+  margin-left: 2px;
+  color:	#c0c0c0;
+  
+}
+.down{
+  margin: 0.5rem 0;
+  font-size: 30px;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+.flex-row ul li {
+  margin-bottom: 1rem;
+ 
+}
+
+
+
+
+
+
+
+@media (min-width: 992px) {
+  .pricing .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+}
+
+
